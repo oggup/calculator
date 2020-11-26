@@ -42,11 +42,13 @@ html {
   
 }
 .calculator{
-  border:1px solid black;
+  border:30px inset rgb(24, 22, 165); 
+
   }
 
   .button{
     border: 2px inset black;
+    
   }
 
    .digits{
@@ -58,6 +60,7 @@ html {
     border: inset 1px grey;
     grid-gap: 20px;
     justify-content: center;
+    
   }
   .held-label{
     grid-column:span 2;
@@ -70,4 +73,9 @@ html {
     border: inset 5px black;
     
   }
-  
+  .digits button{
+    background-color: rgb(189, 63, 63);
+  }
+  .memory{
+    
+  }
