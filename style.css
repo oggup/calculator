@@ -28,7 +28,7 @@ html {
   display: grid;
   grid-template-columns: 4em 4em 4em;
   grid-template-rows: 1em 1em 1em 1em 1em;
-  background: linear-gradient(rgb(231, 216, 216), rgb(168, 168, 221)) ; 
+  background: linear-gradient(rgb(150, 149, 149), rgb(137, 175, 145)) ; 
   border:1px solid white;
   box-shadow: inset 10px 7px 10px -7px rgb(218, 173, 173), inset -5px -5px 11px -5px rgb(104, 20, 20);
 
@@ -39,6 +39,8 @@ html {
   grid-template-rows: 5em 5em 5em 5em 5em;
   background: linear-gradient(grey, navy);
   border: 1px solid black;
+  
+  
   
 }
 .calculator{
@@ -73,9 +75,32 @@ html {
     border: inset 5px black;
     
   }
+  
+  
   .digits button{
-    background-color: rgb(189, 63, 63);
+    background: linear-gradient(rgb(226, 215, 215), rgb(170, 157, 157)214, 207, 207);
+    color: blue;
   }
   .memory{
+    display:flex;
     
+  }
+  .operations button{
+    background: linear-gradient(rgb(129, 60, 60), rgb(148, 52, 52));
+    color:white;
+    border: 2px inset black;
+  }
+
+  .clear-all{
+    background: linear-gradient(rgb(129, 60, 60), rgb(148, 52, 52));
+    color:white;
+    border: 1px inset black;
+    height:40px;
+    
+  }
+  .clear-entry{
+    background: linear-gradient(rgb(129, 60, 60), rgb(148, 52, 52));
+    color:white;
+    border: 1px inset black;
+    height: 40px;
   }
